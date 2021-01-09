@@ -4,8 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "python -m http.server --cgi 5000",
-    "start1": "nodemon app.js"
+    "start": "nodemon app.js",
+    "build": "python -m http.server --cgi 5000"
   },
   "author": "",
   "license": "ISC",
